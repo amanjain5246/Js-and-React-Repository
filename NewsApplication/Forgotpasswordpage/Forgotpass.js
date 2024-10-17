@@ -11,7 +11,7 @@ function Forgotpass() {
     let temp = JSON.parse(localStorage.getItem("credentials")) ?? [];
     const user = temp.find((user) => user.username === Name);
     const userIndex = temp.findIndex((user) => user.username === Name);
-
+//  this is a comment i have added right now
     if (user && userIndex !== -1) {
       if ((user && Forgotpass !== "") || Forgotpassre !== "") {
         if (Forgotpass === Forgotpassre) {

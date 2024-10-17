@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Forgotpasswordpage/Style.css"
-import { useNavigate, Link, Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 function Forgotpass() {
   const [Name, setName] = useState("");
   const [Forgotpass, setForgotpass] = useState("");

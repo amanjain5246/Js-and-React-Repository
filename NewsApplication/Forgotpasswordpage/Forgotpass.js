@@ -6,7 +6,7 @@ function Forgotpass() {
   const [Forgotpass, setForgotpass] = useState("");
   const [Forgotpassre, setForgotpassre] = useState("");
   const Navigate = useNavigate();
-  let tempone;
+  // let tempone;
   function check() {
     let temp = JSON.parse(localStorage.getItem("credentials")) ?? [];
     const user = temp.find((user) => user.username === Name);

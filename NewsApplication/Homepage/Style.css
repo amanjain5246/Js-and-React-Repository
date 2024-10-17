@@ -1,0 +1,18 @@
+.homebase {
+    position: absolute;
+    margin-top: 0px;
+    width: 100vw;
+    background: linear-gradient(to right top, rgb(253, 165, 180), lightgreen);
+  }
+  .moviestyle {
+    padding: 5px;
+    background: linear-gradient(to right top, rgb(253, 165, 180), lightgreen);
+    width: 50vw;
+    height: 25vh;
+    color: black;
+    float: left;
+    font-size: large;
+    font-style: italic;
+    border: 2px;
+    border-radius: 50px;
+  }

@@ -1,0 +1,120 @@
+.base {
+    height: 100vh;
+    background: linear-gradient(to left bottom, rgb(253, 165, 180), lightgreen);
+    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding: 0%;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  }
+  .login {
+    height: 60vh;
+  
+    background: linear-gradient(
+      to bottom left,
+      rgb(159, 248, 237),
+      rgb(255, 159, 159)
+    );
+  
+    margin-top: 8%;
+    margin-left: 35%;
+    position: absolute;
+    width: 30vw;
+    border-radius: 20 px;
+  }
+  .subheading {
+    color: gray;
+  }
+  .logindetails {
+    height: 350px;
+    width: 450px;
+    margin-left: 65px;
+    border: 3px;
+  }
+  .usernameloginname {
+    font-size: x-small;
+    color: gray;
+    margin-left: 32px;
+    text-align: left;
+    padding: 0px;
+  }
+  .usernameloginpass {
+    font-size: x-small;
+    color: gray;
+    margin-left: 32px;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 35px;
+  }
+  .inputbox {
+    border: 1px;
+    height: 60px;
+    background: linear-gradient(
+      to left,
+      rgba(255, 183, 183, 0.379),
+      rgb(187, 209, 242)
+    );
+    border-style: groove;
+    border-color: gray;
+    width: 80%;
+    margin-top: -30px;
+    margin-left: 1px;
+    margin-right: 25px;
+  }
+  .eyeimagefirst {
+    position: absolute;
+    background-image: rgb(255, 183, 183);
+    border-radius: 10px;
+    margin-left: 360px;
+    width: 30px;
+    height: 30px;
+  }
+  .checkbox {
+    margin-top: 20px;
+    margin-left: -195px;
+    position: absolute;
+  }
+  .remember {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 55px;
+    color: gray;
+  }
+  .forgotpassword {
+    font-size: 17px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 260px;
+    color: blue;
+  }
+  .loginbutton {
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: larger;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -190px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    background-color: rgb(104, 104, 255);
+  }
+  .registeraccount {
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: medium;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -20px;
+    color: white;
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-bottom: 17px;
+    padding-right: 15px;
+    background-color: rgb(104, 104, 255);
+  }
+  

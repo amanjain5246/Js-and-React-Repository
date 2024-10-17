@@ -1,0 +1,104 @@
+.base {
+    height: 100vh;
+    background: linear-gradient(to left bottom, rgb(253, 165, 180), lightgreen);
+    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding: 0%;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  }
+  .login {
+    height: 60vh;
+  
+    background: linear-gradient(
+      to bottom left,
+      rgb(159, 248, 237),
+      rgb(255, 159, 159)
+    );
+  
+    margin-top: 8%;
+    margin-left: 35%;
+    position: absolute;
+    width: 30vw;
+    border-radius: 20 px;
+  }
+  .username {
+    font-size: x-small;
+    color: gray;
+    text-align: left;
+    margin-left: 45px;
+  }
+  .inputbox {
+    border: 1px;
+    height: 60px;
+    background: linear-gradient(
+      to left,
+      rgba(255, 183, 183, 0.379),
+      rgb(187, 209, 242)
+    );
+    border-style: groove;
+    border-color: gray;
+    width: 80%;
+    margin-top: -30px;
+    margin-left: 1px;
+    margin-right: 25px;
+  }
+  .signpass {
+    font-size: x-small;
+    color: gray;
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom: 12px;
+  }
+  .eyeimagesign {
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .inputboxpass {
+    border: 1px;
+    height: 60px;
+    border-style: groove;
+    background: linear-gradient(to left, rgb(255, 183, 183), rgb(187, 209, 242));
+    border-color: gray;
+    width: 80%;
+  
+    margin-top: -0px;
+    margin-left: 1px;
+    margin-right: 25px;
+  }
+  .createbutton {
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: larger;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -490px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    background-color: rgb(104, 104, 255);
+  }
+  .haveaccount {
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: medium;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -240px;
+    color: white;
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-bottom: 17px;
+    padding-right: 15px;
+    background-color: #6868ff;
+  }
+  .subheading {
+    color: gray;
+  }

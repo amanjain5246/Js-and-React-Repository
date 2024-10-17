@@ -1,0 +1,24 @@
+.base {
+    height: 100vh;
+    background: linear-gradient(to left bottom, rgb(253, 165, 180), lightgreen);
+    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding: 0%;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  }
+  .newsblog {
+    margin-left: 450px;
+    margin-top: 60px;
+    padding-top: 0%;
+    padding: 0%;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 55px;
+  }
+  .newsinside {
+    padding: 12px;
+  }

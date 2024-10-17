@@ -1,0 +1,374 @@
+.base {
+  height: 100vh;
+  background: linear-gradient(to left bottom, rgb(253, 165, 180), lightgreen);
+  margin: 0%;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding: 0%;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.login {
+  height: 60vh;
+
+  background: linear-gradient(
+    to bottom left,
+    rgb(159, 248, 237),
+    rgb(255, 159, 159)
+  );
+
+  margin-top: 8%;
+  margin-left: 35%;
+  position: absolute;
+  width: 30vw;
+  border-radius: 20 px;
+}
+
+.subheading {
+  color: gray;
+}
+.logindetails {
+  height: 350px;
+  width: 450px;
+  margin-left: 65px;
+  border: 3px;
+}
+.username {
+  font-size: x-small;
+  color: gray;
+  text-align: left;
+  margin-left: 45px;
+}
+.usernameloginname {
+  font-size: x-small;
+  color: gray;
+  margin-left: 32px;
+  text-align: left;
+  padding: 0px;
+}
+.usernameloginpass {
+  font-size: x-small;
+  color: gray;
+  margin-left: 32px;
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 35px;
+}
+.inputbox {
+  border: 1px;
+  height: 60px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 183, 183, 0.379),
+    rgb(187, 209, 242)
+  );
+  border-style: groove;
+  border-color: gray;
+  width: 80%;
+  margin-top: -30px;
+  margin-left: 1px;
+  margin-right: 25px;
+}
+.inputboxpass {
+  border: 1px;
+  height: 60px;
+  border-style: groove;
+  background: linear-gradient(to left, rgb(255, 183, 183), rgb(187, 209, 242));
+  border-color: gray;
+  width: 80%;
+
+  margin-top: -0px;
+  margin-left: 1px;
+  margin-right: 25px;
+}
+.passwordbutton {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 347px;
+  font-size: x-small;
+}
+.loginbutton {
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: larger;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -190px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  background-color: rgb(104, 104, 255);
+}
+.checkbox {
+  margin-top: 20px;
+  margin-left: -195px;
+  position: absolute;
+}
+.remember {
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 55px;
+  color: gray;
+}
+.forgotpassword {
+  font-size: 17px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 260px;
+  color: blue;
+}
+.createbutton {
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: larger;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: -490px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  background-color: rgb(104, 104, 255);
+}
+.signpass {
+  font-size: x-small;
+  color: gray;
+  text-align: left;
+  margin-left: 45px;
+  margin-bottom: 12px;
+}
+.signpasswordbutton {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 445px;
+  font-size: x-small;
+}
+.haveaccount {
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: medium;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: -240px;
+  color: white;
+  padding-top: 17px;
+  padding-left: 15px;
+  padding-bottom: 17px;
+  padding-right: 15px;
+  background-color: #6868ff;
+}
+.registeraccount {
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: medium;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -20px;
+  color: white;
+  padding-top: 17px;
+  padding-left: 15px;
+  padding-bottom: 17px;
+  padding-right: 15px;
+  background-color: rgb(104, 104, 255);
+}
+.passwordeye {
+  margin-left: 430px;
+}
+.eyeimagefirst {
+  position: absolute;
+  background-image: rgb(255, 183, 183);
+  border-radius: 10px;
+  margin-left: 360px;
+  width: 30px;
+  height: 30px;
+}
+.eyeimagesign {
+  position: absolute;
+  margin-left: 480px;
+  margin-top: 20px;
+  width: 20px;
+  height: 20px;
+}
+.homebase {
+  position: absolute;
+  margin-top: 0px;
+  width: 100vw;
+  background: linear-gradient(to right top, rgb(253, 165, 180), lightgreen);
+}
+
+.leftdiv {
+  position: left;
+  width: 30vw;
+  height: 40vh;
+  background-color: azure;
+  margin-top: 0%;
+  margin-left: 0vw;
+}
+.centerdiv {
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  background-color: rgb(40, 78, 78);
+  margin-top: -40vh;
+  margin-left: 33vw;
+}
+.rightdiv {
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  background-color: rgb(8, 175, 175);
+  margin-top: -40vh;
+  margin-left: 66vw;
+}
+.justtest {
+  position: absolute;
+  height: 100vh;
+}
+.moviestyle {
+  padding: 5px;
+  background: linear-gradient(to right top, rgb(253, 165, 180), lightgreen);
+  width: 50vw;
+  height: 25vh;
+  color: black;
+  float: left;
+  font-size: large;
+  font-style: italic;
+  border: 2px;
+  border-radius: 50px;
+}
+
+.forgotdiv {
+  height: 60vh;
+  background: linear-gradient(
+    to bottom left,
+    rgb(159, 248, 237),
+    rgb(255, 159, 159)
+  );
+
+  margin-top: 8%;
+  margin-left: 35%;
+  position: absolute;
+  width: 30vw;
+  border-radius: 20 px;
+}
+.resetpassdiv {
+  height: 51vh;
+  margin-top: 0%;
+  margin-left: 0%;
+  position: absolute;
+  width: 30vw;
+  border-radius: 20 px;
+}
+.forgotname {
+  font-size: x-small;
+  color: gray;
+  text-align: left;
+  margin-left: 45px;
+}
+.forgotnameinput {
+  border: 1px;
+  height: 60px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 183, 183, 0.379),
+    rgb(187, 209, 242)
+  );
+  border-style: groove;
+  border-color: gray;
+  width: 80%;
+  margin-top: -30px;
+  margin-left: 1px;
+  margin-right: 25px;
+}
+.forgotpasswordhead {
+  color: gray;
+  font-size: x-small;
+  text-align: left;
+  margin-left: 45px;
+}
+.forgotpassinput {
+  border: 1px;
+  height: 60px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 183, 183, 0.379),
+    rgb(187, 209, 242)
+  );
+  border-style: groove;
+  border-color: gray;
+  width: 80%;
+  margin-top: -30px;
+  margin-left: 1px;
+  margin-right: 25px;
+}
+.forgotpassRe {
+  color: gray;
+  font-size: x-small;
+
+  text-align: left;
+  margin-left: 45px;
+}
+.forgotpassreinput {
+  border: 1px;
+  height: 60px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 183, 183, 0.379),
+    rgb(187, 209, 242)
+  );
+  border-style: groove;
+  border-color: gray;
+  width: 80%;
+  margin-top: -30px;
+  margin-left: 1px;
+  margin-right: 25px;
+}
+
+.forgotcreate {
+  margin-left: -490px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: larger;
+  position: absolute;
+  margin-top: 60px;
+
+  color: white;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  background-color: rgb(104, 104, 255);
+}
+.forgotlogin {
+  margin-left: -180px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: larger;
+  position: absolute;
+  margin-top: 60px;
+
+  color: white;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  background-color: rgb(104, 104, 255);
+}
+
+.newsblog {
+  margin-left: 450px;
+  margin-top: 60px;
+  padding-top: 0%;
+  padding: 0%;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 55px;
+}
+.newsinside {
+  padding: 12px;
+}

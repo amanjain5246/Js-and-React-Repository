@@ -8,6 +8,8 @@ function Details() {
   const article = location.state;
   console.log({ article });
 
+
+  
   return (
     <div class="base">
       <div class="newsblog">
